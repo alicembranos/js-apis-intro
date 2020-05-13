@@ -1,0 +1,38 @@
+{
+  "name": "apis-intro-methods-pill",
+  "version": "1.0.0",
+  "description": "apis-intro-methods-pill",
+  "author": "Dani Lucaci <dani@assemblerschool.com>",
+  "keywords": [
+    "apis",
+    "basics",
+    "assemblerschool"
+  ],
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "deploy": "codesandbox ./"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jquery": "3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.9.5",
+    "@types/bootstrap": "^4.3.2",
+    "@types/jest": "^25.2.1",
+    "@types/jquery": "^3.3.38",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0",
+    "jest-fetch-mock": "^3.0.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}

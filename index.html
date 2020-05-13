@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assembler School</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="/src/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container mt-3">
+      <div class="row-cols-1">
+        <div class="col">
+          <h1 class="mt-5">
+            <code>
+              Apis Intro Methods Pill
+            </code>
+          </h1>
+        </div>
+        <div class="col mt-4">
+          <h2 class="h4">Exercises</h2>
+          <ul class="index-list">
+            <li>
+              Implement the api call for the exercise 1 using
+              <code class="snippet">XMLHttpRequest</code>
+            </li>
+            <li>
+              Implement the api call for the exercise 2 using
+              <code class="snippet">jQuery.get()</code>
+            </li>
+            <li>
+              Implement the api call for the exercise 3 using
+              <code class="snippet">fetch()</code>
+            </li>
+            <li>
+              Implement the api call for the exercise 4 using
+              <code class="snippet">axios.get()</code>
+            </li>
+          </ul>
+        </div>
+        <section class="col mt-5 mb-3">
+          <hr />
+          <h2 class="h3 mb-4">
+            Choose the method to fetch the data from the api
+          </h2>
+          <div class="d-flex flex-column flex-sm-row">
+            <select
+              name="chooseMethod"
+              id="chooseMethod"
+              class="custom-select mb-3 mb-sm-0 mr-sm-4"
+            >
+              <option value="xmlrequest"><code>XMLHttpRequest</code></option>
+              <option value="get"><code>jQuery.get()</code></option>
+              <option value="fetch"><code>fetch()</code></option>
+              <option value="axios"><code>axios.get()</code></option>
+            </select>
+            <button class="btn btn-primary mr-sm-4 mb-3 mb-sm-0 run-ex">
+              Execute
+            </button>
+            <button class="btn btn-outline-dark clear-ex">
+              Clear
+            </button>
+          </div>
+          <hr />
+        </section>
+        <section class="col">
+          <pre class="pre-container">
+<code id='data'>
+</code>
+</pre>
+          <div class="ex4-container"></div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
