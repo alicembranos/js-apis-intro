@@ -1,13 +1,13 @@
-`#apis` `#assembler-school` `#master-in-software-engineering`
+`#apis` `#assembler-institute` `#master-in-software-development`
 
-# Assembler School: APIS Intro Methods Pill
+# Assembler Institute: APIS Intro Methods Pill
 
 ## Getting Started
 
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/apis-intro-methods-pill
+$ git clone https://github.com/assembler-institute/apis-intro-methods-pill
 ```
 
 Then, you will have to install all the dependencies with npm:
