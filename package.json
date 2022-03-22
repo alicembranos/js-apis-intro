@@ -6,7 +6,7 @@
   "keywords": [
     "apis",
     "basics",
-    "assemblerschool"
+    "assemblerinstitute"
   ],
   "scripts": {
     "start": "parcel index.html --open",
