@@ -20,6 +20,7 @@ $(document).ready(function () {
     } else if (val === "fetch") {
       exercise03();
     } else if (val === "axios") {
+      console.log('entra');
       exercise04();
     }
   });

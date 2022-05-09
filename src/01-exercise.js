@@ -14,6 +14,16 @@ import $ from "jquery";
  */
 function exercise01() {
   // Complete the code of the function
+  const dataElement = document.getElementById("data");
+
+  const req = new XMLHttpRequest();
+  req.open('GET', 'https://jsonplaceholder.typicode.com/posts?_limit=20')
+
+  req.onload = (() => {
+    dataElement.textContent = req.response;
+  })
+
+  req.send();
 }
 
 export default exercise01;

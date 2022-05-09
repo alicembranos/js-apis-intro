@@ -17,6 +17,12 @@ import $ from "jquery";
 
 function exercise02() {
   // Complete the code of the function
+  const dataElement = document.getElementById("data");
+
+  $.get('https://jsonplaceholder.typicode.com/users/1/', function (data) {
+    $('#data').text(JSON.stringify(data, null, 2));
+  });
+  
 }
 
 export default exercise02;
