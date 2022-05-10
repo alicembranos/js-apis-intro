@@ -37,9 +37,9 @@ function exercise04() {
   // Make sure to return the axios.get() method call
   //
   // return axios.get()...
-  return axios.get("https://jsonplaceholder.typicode.com/posts?_limit=6").then(response => {
+  return axios.get("https://jsonplaceholder.typicode.com/posts?_limit=6").then(data => {
 
-    response.data.forEach(item => {
+    data.data.forEach(item => {
       
       const container = document.querySelector(".ex4-container");
       const divElement = document.createElement("div");
